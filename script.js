@@ -1,7 +1,8 @@
 var html = document.querySelector('#html');
 var pdf = document.querySelector('#pdf');
 
-populateIframe(html, 'other.html', [['x-api-version', 'v1.2']]);
+// populateIframe(html, 'other.html', [['x-api-version', 'v1.2']]);
+populateIframe(html, 'https://image.shutterstock.com/image-photo/cute-little-boy-static-electricy-600w-1438997708.jpg', [['x-api-version', 'v1.2']]);
 populateIframe(pdf, 'peepcode-git.pdf', [['Authorization', 'Bearer abcd1234']]);
 
 function populateIframe(iframe, url, headers) {
